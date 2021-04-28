@@ -1,0 +1,263 @@
+*{line-height: 24px;font-size: 16px;box-sizing: border-box;}
+body{font-family : "Plain", sans-serif;}
+.container{margin: auto;}
+.clearfix{clear: both;}
+
+/* Start Home */
+
+.home
+{
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+	url(../images/gym.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #171819;
+}
+.home .nav 
+{
+	text-align: center;
+	overflow: hidden;
+}
+.home .nav .img{}
+.home .nav h2{
+				width: 35%;
+				height:1px;
+				float: left; 
+				margin-top: -15px;
+				color: #d6d6d6;
+				text-transform: none;
+			}
+
+.home .nav h2:hover{color: #F13A11}
+
+.home .nav ul{
+	width:65%;
+	height:1px;
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	float: right; 
+	margin-top: -30px;
+}
+
+.home .nav ul li{display: inline-block;margin: 10px;margin-right: 20px;font-size: 20px;}
+.home .nav ul li a{text-decoration: none;color: #d6d6d6;}
+.home .nav ul li a:hover,
+.home .nav ul li a.active{color: #F13A11;}
+.home .slider h6{ color:#9d9d9d;padding-top: 190px;text-transform: none;}
+.home .slider h1{color: #fff;line-height: 45px;margin-bottom: 50px;opacity: 1;}
+.home .slider .signup{background: none;color: #fff;border: none;text-transform: uppercase;}
+.home .slider .signup:hover{color: #F13A11}
+.home .slider .learn{background: none; color: #F13A11;border: 1px solid #F13A11;padding: 10px 20px;margin-left: 20px;text-transform: uppercase;}
+.home .slider .learn:hover{background: #fff;}
+
+/* End Home */
+/* Start Info */
+.sect{background-color: #171819;overflow: hidden;padding-left: 250px;}
+.sect .info{margin: 50px;display: inline-block;padding: 75px;}
+.sect .info .left{width: 50%;float: left;}
+.sect .info .left h2{color: #fff;font-size: 30px;}
+.sect .info .left h6{color: #fff;font-size: 20px;}
+.sect .info .left p{line-height: 30px;margin-top: -20px;color: #686868;font-size: 15px;}
+.sect .info .left a button{cursor: pointer;background: #f13a11; color: #fff;border: 1px solid #F13A11;padding: 10px 150px;text-transform: uppercase;}
+.sect .info .left a button:hover{background: #fff; color: #F13A11;border: 0px;}
+.sect .info .right{width: 50%; float: right;border-left: 2px solid#333;padding-left:100px}
+.sect .info .right h2{color: #fff;font-size: 30px;margin-bottom: 35px;}
+.sect .info .right strong{color: #fff;display: block;margin-bottom: 10px;}
+.sect .info .right p {color: #686868;font-size: 15px;}
+/* End Info */
+/* Start About Us */
+.about{background-color:#f5f5f5;padding-top:0px;height: 700px;overflow: hidden;box-sizing: border-box;overflow: hidden;}
+.about .about-us{padding: 200px;overflow: hidden;padding-left: 260px;}
+.about .about-us .text{width: 30%;float: left;overflow: hidden;}
+.about .about-us .text h2{color: #000000;margin-bottom: 15px;}
+.about .about-us .text p{line-height: 35px;}
+.about .about-us .text p a{color: #555555;text-decoration: none;font-size: 15px;}
+.about .about-us .text p a:hover{color: #f13a11;}
+.about .about-us .models{width: 30%;float: right;height: 350px;border: 2px solid#666;border-radius:20px; background-color: #fff;margin-left: 20px;overflow: hidden;}
+.about .about-us .models img{width: 100%;}
+.about .about-us .models .know{overflow: hidden;}
+.about .about-us .models .know .text{margin-right: 85px;overflow: hidden;margin-left: 30px;}
+.about .about-us .models .know .text h3{font-size: 17px;margin-bottom: -3px}
+.about .about-us .models .know .text span{font-size: 11px;color: #333}
+.about .about-us .models .know .icon{overflow: hidden;}
+.about .about-us .models .know .icon ul{list-style: none;}
+.about .about-us .models .know .icon ul li{padding-top: 0px;}
+.about .about-us .models .know .icon ul li a{color: #333;}
+.about .about-us .models .know .icon ul li a:hover{color: #f13a11;}
+/* End About us */
+/* Start Classes */
+.classes{margin-top: 100px;overflow: hidden;}
+.tex{overflow: hidden;}
+.tex h6{color: #666262;text-align: center;margin-bottom: 0;}
+.tex h2{text-align: center;font-size: 30px;color: #404040; margin-bottom: 50px;}
+/* .tex .contain{margin-left: 200px;} */
+/* Yoga */
+.tex .yoga{
+				width: 20%;
+				float: left;
+				margin-right: 20px;
+				border: 2px solid #eeefef;
+				overflow: hidden;
+				margin-left: 200px;
+				box-shadow: 5px 5px 5px #666
+}
+
+.tex .yoga img{width: 100%;}
+.tex .yoga h3{margin-left: 10px;font-size: 30px;margin-bottom: 15px;margin-top: 10px;}
+.tex .yoga .coach{margin-left: 15px;}
+.tex .yoga .coach strong{color: #666262;}
+.tex .yoga .price{
+					line-height: 50px;
+					width: 50px;
+					height: 50px;
+					text-align: center;
+					float: right;
+					border-radius: 50%;
+					margin-right: 15px;
+					margin-top: -35px;
+					color: #fff;
+					background-color: #F13A11;
+				}
+.tex .yoga p{margin-left: 17px;line-height: 30px;margin-top: 5px;color: #666262;}
+/* areobic */
+.tex .areobic{
+					width: 20%;
+					float: left;
+					margin-right: 20px;
+					border: 2px solid #eeefef;
+					overflow: hidden;
+					margin-left: 20px;
+					box-shadow: 5px 5px 5px #666
+}
+.tex .areobic img{width: 100%;}
+.tex .areobic h3{margin-left: 10px;font-size: 30px;margin-bottom: 15px;margin-top: 10px;}
+.tex .areobic .coach{margin-left: 15px;}
+.tex .areobic .coach strong{color: #666262;}
+.tex .areobic .price{
+							line-height: 50px;
+							width: 50px;
+							height: 50px;
+							text-align: center;
+							float: right;
+							border-radius: 50%;
+							margin-right: 15px;
+							margin-top: -35px;
+							color: #fff;
+							background-color: #F13A11;
+}
+
+.tex .areobic p{margin-left: 17px;line-height: 30px;margin-top: 5px;color: #666262;}
+/* Cardio */
+.tex .cardio{
+							width: 20%;
+							float: left
+							;margin-right: 20px;
+							border: 2px solid #eeefef;
+							overflow: hidden;
+							margin-left: 20px;
+							box-shadow: 5px 5px 5px #666;
+}
+
+.tex .cardio img{width: 100%;}
+.tex .cardio h3{margin-left: 10px;font-size: 30px;margin-bottom: 15px;margin-top: 10px;}
+.tex .cardio .coach{margin-left: 15px;}
+.tex .cardio .coach strong{color: #666262;}
+
+.tex .cardio .price{
+							line-height: 50px;
+							width: 50px;
+							height: 50px;
+							text-align: center;
+							float: right;
+							border-radius: 50%;
+							margin-right: 15px;
+							margin-top: -35px;
+							color: #fff;
+							background-color: #F13A11;
+}
+
+.tex .cardio p{margin-left: 17px;line-height: 30px;margin-top: 5px;color: #666262;}
+
+/* End Classes */
+
+/* Start schedules */
+.schedule{overflow:hidden;height: 870px;background-color: #171819;margin-top: 100px;color: #fff;}
+.heading{padding-top: 5%;text-align: center;}
+.heading h6{margin-top: 50px;margin-bottom: 5px;color: #666;}
+.heading h2{font-size: 30px;}
+.table{padding: 10%;padding-top: 75px;text-align: center;/*padding-left: 45%;*/}
+.table table{text-align: center;width: 100%;}
+.table th{padding: 10px;background-color: #f13a11;height: 60px;}
+.table tr td:first-child{background-color: #f13a11;width: 150px;}
+.table td{width:200px;height:80px;border: .5px solid#333; }
+.table td strong{display: block;}
+.table td span{display: block;color: #939393;}
+
+/* End schedules */
+/* Start Contact */
+.contact{padding-top: 100px;overflow: hidden;text-align: center}
+/* info */
+.contact .info{width: 30;float: left;margin-left: 300px;}
+.contact .info form{padding-top: 30px;}
+.contact .info form input{display: block;margin-bottom: 30px;
+	padding:10px 110px 10px 0;}
+.contact .info form textarea{width: 100%;height: 150px;margin-bottom: 30px;}
+.contact .info form input[type="submit"]{padding:10px 100px;background-color: #1E1E1E; color: #fff;}
+.contact .info form input[type="submit"]:hover{background-color: #F13A11;}
+/* place */
+.contact .place{width: 30%; float: left;margin-left: 10%;}
+.place p{color: #666262;font-size: 18px;}
+.place p i{color: #F13A11;}
+.place .map {
+					margin-left:20%;
+					width: 400px;
+					height: 200px;
+					background-image: url("../images/map.JPG");
+					background-size: cover;
+}
+.place .map .top{
+					background-color: #fff;
+					display: inline-block;
+					margin-left: -140px;
+					margin-top: 20px;
+					width: 230px;
+					text-align: left;
+					padding:0 10px
+}
+.place .top a{color: #00f;text-decoration: none;}
+
+/* buttons */
+.place .map .buttons{width:10%;position: relative;left: 340px;top: 10px;padding-top: 20px;}
+.place .map .buttons button{
+								cursor: pointer;
+								margin-left: 7px;
+								width: 50px;
+								height: 40px;
+								font-size: 40px;
+								line-height: 0px;
+								background-color: #fefefe;
+								border: none;
+}
+/* Bottom */
+.place .map .bottom{position: relative; top:10px;left: 2px;}
+.place .map .bottom div{display: inline-block;float: right;color: #1d2d50;background-color: #d9ecf2;margin-right: 5px;}
+.place .map .bottom div a{text-decoration: none;color: #1d2d50;}
+
+
+
+/* End Contact */
+/* Start Footer */
+
+footer{border-top: 1px solid #ccc;padding-top: 80px;margin-top: 100px;color: #222;margin-bottom: 50px;}
+footer .footer{overflow: hidden;text-align: center;margin-top: -15px;}
+footer .footer .parag{width: 50%;float: left;display: inline-block;padding: 30px 0;padding-left: 20%;}
+footer .footer .inf{width: 50%;float: left;display: inline-block;margin-bottom: 30px;padding-right: 10%;}
+footer .footer .inf p {display: inline-block; margin-top: 0;padding: 30px 0;margin: 0 15px;}
+footer .footer .inf p i{color: #F13A11;}
+footer .footer .inf p a{text-decoration: none;color: #222;}
+
+/* End Footer */
